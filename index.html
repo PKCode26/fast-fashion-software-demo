@@ -6,7 +6,7 @@
     <title>Fast Fashion Software</title>
     <meta
       name="description"
-      content="Software-Flatrate für Privatpersonen und Unternehmen: ständig neue Tools, Updates inklusive, schnelle Optimierungen auf Anfrage."
+      content="Software-Flatrate fuer Privatpersonen und Unternehmen: ein Preis, alle Softwares, staendig neue Tools und schnelle Wunsch-Optimierungen."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -52,6 +52,27 @@
         <path d="M9 13h6" />
         <path d="M9 17h5" />
       </symbol>
+      <symbol id="icon-receipt" viewBox="0 0 24 24">
+        <path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z" />
+        <path d="M9 8h6" />
+        <path d="M9 12h6" />
+        <path d="M9 16h4" />
+      </symbol>
+      <symbol id="icon-family" viewBox="0 0 24 24">
+        <circle cx="8" cy="7" r="3" />
+        <circle cx="16" cy="7" r="3" />
+        <path d="M3.5 20a5 5 0 0 1 9 0" />
+        <path d="M11.5 20a5 5 0 0 1 9 0" />
+        <path d="M9.5 13h5" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M12 3 19 6v5c0 4.8-2.9 8.1-7 10-4.1-1.9-7-5.2-7-10V6l7-3Z" />
+        <path d="m8.5 12 2.3 2.3 4.7-5" />
+      </symbol>
+      <symbol id="icon-shirt" viewBox="0 0 24 24">
+        <path d="M9 4 6 6 3 7.5l3 5V21h12v-8.5l3-5L18 6l-3-2a3 3 0 0 1-6 0Z" />
+        <path d="M9 4c.8 1.2 1.8 1.8 3 1.8S14.2 5.2 15 4" />
+      </symbol>
       <symbol id="icon-refresh" viewBox="0 0 24 24">
         <path d="M20 8a8 8 0 0 0-13.7-3.7L4 6.5" />
         <path d="M4 3v3.5h3.5" />
@@ -87,111 +108,157 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Für Privatpersonen und Unternehmen</p>
-          <h1 id="hero-title">Software-Flatrate</h1>
-          <p class="hero-copy">
-            Ständig neue Software für Ideen, Einzelfälle und nervige Aufgaben.
-            Alles im Bundle, Updates inklusive.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#bundle">
-              <svg class="button-icon"><use href="#icon-stack" /></svg>
+        <div class="hero-inner">
+          <div class="hero-content">
+            <p class="eyebrow">Software-Flatrate fuer alle Ideen</p>
+            <h1 id="hero-title">Ein Preis. Alle Softwares.</h1>
+            <p class="hero-copy">
+              Staendig neue Apps fuer Privatpersonen, Selbststaendige und Unternehmen.
+              Von Mini-Tool bis Fachsoftware ist alles im Bundle.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:demo@fast-fashion-software.local">
+                <svg class="button-icon"><use href="#icon-spark" /></svg>
+                Jetzt gratis testen
+              </a>
+              <a class="button button-secondary" href="mailto:demo@fast-fashion-software.local">
+                <svg class="button-icon"><use href="#icon-tool" /></svg>
+                Wunsch-App anfragen
+              </a>
+            </div>
+          </div>
+
+          <aside class="price-card" aria-label="Flatrate Angebot">
+            <span class="price-badge">Launch Angebot</span>
+            <strong>Ein Preis</strong>
+            <p>Alle Softwares, alle Updates, laufend neue Loesungen.</p>
+            <a class="price-link" href="#bundle">
               Flatrate ansehen
+              <svg><use href="#icon-arrow" /></svg>
             </a>
-            <a class="button button-secondary" href="mailto:demo@fast-fashion-software.local">
-              <svg class="button-icon"><use href="#icon-tool" /></svg>
-              Optimierung anfragen
-            </a>
-          </div>
-
-          <div class="solution-pills" aria-label="Mögliche Software-Lösungen">
-            <span><svg class="mini-icon"><use href="#icon-spark" /></svg>Ideen</span>
-            <span><svg class="mini-icon"><use href="#icon-file" /></svg>Dokumente</span>
-            <span><svg class="mini-icon"><use href="#icon-refresh" /></svg>Automatisierung</span>
-            <span><svg class="mini-icon"><use href="#icon-calendar" /></svg>Planung</span>
-            <span><svg class="mini-icon"><use href="#icon-database" /></svg>Backoffice</span>
-            <span><svg class="mini-icon"><use href="#icon-stack" /></svg>Auswertungen</span>
-            <span><svg class="mini-icon"><use href="#icon-spark" /></svg>Mini-Tools</span>
-          </div>
+          </aside>
         </div>
 
-        <div class="hero-software-grid" id="software" aria-label="Beispiel-Softwares">
-          <article class="hero-card accent-blue">
-            <div class="card-icon"><svg><use href="#icon-search" /></svg></div>
-            <span>DOKUMENTE</span>
-            <h2>Dokumentensuche</h2>
-            <p>Eigene Dateien fragen. Quellen direkt sehen.</p>
-          </article>
-
-          <article class="hero-card accent-lilac">
-            <div class="card-icon"><svg><use href="#icon-database" /></svg></div>
-            <span>ERP</span>
-            <h2>EFA ERP</h2>
-            <p>ERP für Daten, Abläufe und Auswertungen.</p>
-          </article>
-
-          <article class="hero-card accent-green">
-            <div class="card-icon"><svg><use href="#icon-calendar" /></svg></div>
-            <span>PLANUNG</span>
-            <h2>CapaPlanung</h2>
-            <p>Kapazitäten planen und Engpässe sehen.</p>
-          </article>
-
-          <article class="hero-card accent-yellow">
-            <div class="card-icon"><svg><use href="#icon-file" /></svg></div>
-            <span>PDF</span>
-            <h2>PDF Unmarking</h2>
-            <p>PDFs bereinigen und automatisch ausspielen.</p>
-          </article>
+        <div class="solution-pills" aria-label="Moegliche Software-Loesungen">
+          <span><svg class="mini-icon"><use href="#icon-spark" /></svg>Ideen</span>
+          <span><svg class="mini-icon"><use href="#icon-receipt" /></svg>Rechnungen</span>
+          <span><svg class="mini-icon"><use href="#icon-calendar" /></svg>Familienplanung</span>
+          <span><svg class="mini-icon"><use href="#icon-shield" /></svg>Security</span>
+          <span><svg class="mini-icon"><use href="#icon-refresh" /></svg>Automatisierung</span>
+          <span><svg class="mini-icon"><use href="#icon-stack" /></svg>Mini-Tools</span>
         </div>
+
+        <section class="software-section" id="software" aria-labelledby="software-title">
+          <div class="section-heading">
+            <p class="eyebrow">Beispiel-Softwares</p>
+            <h2 id="software-title">Viele Loesungen fuer alles Moegliche</h2>
+          </div>
+
+          <div class="software-grid" aria-label="Software Beispiele">
+            <article class="software-card accent-blue">
+              <div class="card-icon"><svg><use href="#icon-search" /></svg></div>
+              <span>DOKUMENTE</span>
+              <h3>Dokumentensuche</h3>
+              <p>Eigene Dateien fragen und Antworten mit Quellen bekommen.</p>
+            </article>
+
+            <article class="software-card accent-lilac">
+              <div class="card-icon"><svg><use href="#icon-database" /></svg></div>
+              <span>ERP</span>
+              <h3>EFA ERP</h3>
+              <p>Daten, Workflows und Auswertungen in einer schlanken ERP-App.</p>
+            </article>
+
+            <article class="software-card accent-green">
+              <div class="card-icon"><svg><use href="#icon-calendar" /></svg></div>
+              <span>PLANUNG</span>
+              <h3>CapaPlanung</h3>
+              <p>Kapazitaeten planen, Bedarf sehen und Engpaesse vermeiden.</p>
+            </article>
+
+            <article class="software-card accent-yellow">
+              <div class="card-icon"><svg><use href="#icon-file" /></svg></div>
+              <span>PDF</span>
+              <h3>PDF Unmarking</h3>
+              <p>PDFs bereinigen, Markierungen entfernen und Batches ausspielen.</p>
+            </article>
+
+            <article class="software-card accent-mint">
+              <div class="card-icon"><svg><use href="#icon-receipt" /></svg></div>
+              <span>RECHNUNG</span>
+              <h3>Rechnungssoftware</h3>
+              <p>Rechnungen fuer Selbststaendige erstellen, verwalten und verfolgen.</p>
+            </article>
+
+            <article class="software-card accent-peach">
+              <div class="card-icon"><svg><use href="#icon-family" /></svg></div>
+              <span>FAMILIE</span>
+              <h3>Co-Parenting Log</h3>
+              <p>Festhalten, wer wann die Kinder nimmt, inklusive Absprachen und Verlauf.</p>
+            </article>
+
+            <article class="software-card accent-teal">
+              <div class="card-icon"><svg><use href="#icon-shield" /></svg></div>
+              <span>SECURITY</span>
+              <h3>Security Reports</h3>
+              <p>Security-Berichte strukturiert erstellen, pruefen und exportieren.</p>
+            </article>
+
+            <article class="software-card accent-pink">
+              <div class="card-icon"><svg><use href="#icon-shirt" /></svg></div>
+              <span>PRIVAT</span>
+              <h3>Wardrobe Manager</h3>
+              <p>Eigene Kleidung verwalten, Outfits planen und Fehlkaeufe vermeiden.</p>
+            </article>
+          </div>
+        </section>
       </section>
 
       <section class="promise-band" aria-label="Leistungsversprechen">
         <div class="promise-item">
           <svg class="promise-icon"><use href="#icon-stack" /></svg>
           <strong>Eine Flatrate</strong>
-          <span>alle Tools nutzen</span>
+          <span>alle Softwares nutzen</span>
         </div>
         <div class="promise-item">
           <svg class="promise-icon"><use href="#icon-spark" /></svg>
           <strong>Neue Software</strong>
-          <span>laufend im Bundle</span>
+          <span>laufend neue Apps im Bundle</span>
         </div>
         <div class="promise-item">
           <svg class="promise-icon"><use href="#icon-tool" /></svg>
           <strong>Ideen willkommen</strong>
-          <span>Einzelfälle anfragen</span>
+          <span>Einzelfaelle und Wuensche anfragen</span>
         </div>
         <div class="promise-item">
           <svg class="promise-icon"><use href="#icon-refresh" /></svg>
           <strong>Schnell gebaut</strong>
-          <span>von Entwicklern</span>
+          <span>Optimierungen durch Entwickler</span>
         </div>
       </section>
 
       <section class="bundle-section" id="bundle" aria-labelledby="bundle-title">
         <div class="bundle-card">
           <p class="eyebrow">Flatrate</p>
-          <h2 id="bundle-title">Ein Preis, viele Tools.</h2>
-          <p>Für private Ideen, kleine Aufgaben und Unternehmensprozesse.</p>
+          <h2 id="bundle-title">Ein Preis - alle Softwares</h2>
+          <p>Private Ideen, kleine Aufgaben und Unternehmensprozesse in einem wachsenden Software-Bundle.</p>
         </div>
         <div class="bundle-card highlight">
-          <p class="eyebrow">Extra</p>
-          <h2>Wunsch-Software anfragen</h2>
-          <p>Wenn etwas schnell optimiert oder neu gebaut werden soll, wird es separat beauftragt.</p>
+          <p class="eyebrow">Gratis testen</p>
+          <h2>Jetzt ausprobieren</h2>
+          <p>Neue Tools testen, Feedback geben und Wunsch-Optimierungen separat beauftragen.</p>
           <a class="button button-primary" href="mailto:demo@fast-fashion-software.local">
             <svg class="button-icon"><use href="#icon-arrow" /></svg>
-            Anfrage senden
+            Jetzt gratis testen
           </a>
         </div>
       </section>
 
       <section class="developer-section" id="entwickler" aria-labelledby="developer-title">
         <div>
-          <p class="eyebrow">Für Entwickler</p>
+          <p class="eyebrow">Fuer Entwickler</p>
           <h2 id="developer-title">Registrieren und Ideen umsetzen</h2>
-          <p>Entwickler übernehmen Optimierungen, bauen neue Tools und liefern Updates aus.</p>
+          <p>Entwickler uebernehmen Optimierungen, bauen neue Tools und liefern Updates aus.</p>
         </div>
         <a class="button button-primary" href="mailto:dev@fast-fashion-software.local">
           <svg class="button-icon"><use href="#icon-user" /></svg>
@@ -202,7 +269,7 @@
 
     <footer class="site-footer">
       <span>Fast Fashion Software</span>
-      <span>RAG · EFA ERP · CapaPlanung · PDF Unmarking</span>
+      <span>RAG · ERP · Planung · PDF · Rechnung · Familie · Security · Wardrobe</span>
     </footer>
   </body>
 </html>
